@@ -1,6 +1,8 @@
 voice {
     name = 'upmc-pierre-hsmm'
-    language = 'fr'
+    locale {
+        language = 'fr'
+    }
     gender = 'male'
     type = 'hsmm'
     description = 'A male French hidden semi-Markov model voice, built at ISIR (UPMC) using data recorded by Pierre Chauvin'
